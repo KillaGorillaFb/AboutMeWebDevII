@@ -10,64 +10,64 @@ Purpose:    About Me Project
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About Me</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
-</head>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" / </head>
 
-<body>
-    <div class="header">
-        <h2>About Me Page Project</h2>
-        <p>Frankie Barrios, Zachary Sexton, Isaac Hoffman</p>
-    </div>
+    <body>
+        <div class="header">
+            <h2>About Me Page Project</h2>
+            <p>Frankie Barrios, Zachary Sexton, Isaac Hoffman</p>
+        </div>
 
-    <!--Link About Me Pages-->
-    <div id="navbar">
-        <a class="active" href="">Home</a>
-        <a href="">Isaac</a>
-        <a href="">Zachary</a>
-        <a href="AboutMe.html">Frankie</a>
-    </div>
-
+        <!--Link About Me Pages-->
+        <div id="navbar">
+            <a class="active" href="">Home</a>
+            <a href="isaac.html">Isaac</a>
+            <a href="">Zachary</a>
+            <a href="AboutMe.html">Frankie</a>
+        </div>
 
 
 
-    <!--Login Form Begins Here-->
-    <div class="bg-img">
-        <form action="blank" class="container">
-            <h1>Login</h1>
+        </div>
 
-            <label for="email"><b>Email</b></label>
+        <!--Login Form Begins Here-->
+        <div class="bg-img">
+            <form action="" class="container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
                 <input type="text" placeholder="Enter Email" name="email" required>
 
                 <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" name="psw" required>
 
-                    <button type="submit" class="btn">Login</button>
-        </form>
-    </div>
-    <!--Login Form Ends Here-->
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+        <!--Login Form Ends Here-->
 
-    <!--Footer Begins Here-->
-    <div class="footer">
-        <p>Web Dev II Fall 2018</p>
-    </div>
-    <!--FooterEnds Here-->
+        <!--Footer Begins Here-->
+        <div class="footer">
+            <p>Web Dev II Fall 2018</p>
+        </div>
+        <!--FooterEnds Here-->
 
-    <!--Script For Sticky Nav Starts Here, Sites Current State Does Not Show Bars Functionality, Page Too Short-->
-    <script>
-        window.onscroll = function () { myFunction() };
+        <!--Script For Sticky Nav Starts Here, Sites Current State Does Not Show Bars Functionality, Page Too Short-->
+        <script>
+            window.onscroll = function () { myFunction() };
 
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
 
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
             }
-        }
-    </script>
-    <!--Script For Sticky Nav Ends Here-->
-</body>
+        </script>
+        <!--Script For Sticky Nav Ends Here-->
+    </body>
 
 </html>
