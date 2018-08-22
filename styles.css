@@ -1,18 +1,20 @@
 /*
-Developer:  Frankie Barrios, Isaac Hoffman, Zachary Sexton
+Developer:  Frankie Barrios
 Date:       8/20/18
 Purpose:    Style Sheet For About Me Project
 */
 
 body {
   margin: 0;
-  font-size: 28px;/*Font Attributer Requirement*/
+  font-size: 28px;
+  /*Font Attributer Requirement*/
 }
 
 .header {
   background-color: #f1f1f1;
   padding: 30px;
-  text-align: center;/*Text-Align Requirement*/
+  text-align: center;
+  /*Text-Align Requirement*/
 }
 
 #navbar {
@@ -21,11 +23,13 @@ body {
 }
 
 #navbar a {
-  float: left; /*Float Requirement*/
+  float: left;
+  /*Float Requirement*/
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;/*Property/ Padding Requirement*/
+  padding: 14px 16px;
+  /*Property/ Padding Requirement*/
   text-decoration: none;
   font-size: 17px;
 }
@@ -45,7 +49,8 @@ body {
 }
 
 .sticky {
-  position: fixed;/*Position Requirement*/
+  position: fixed;
+  /*Position Requirement*/
   top: 0;
   width: 100%;
 }
@@ -58,16 +63,19 @@ body {
 
 body, html {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;/*Font Family Requirement*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*Font Family Requirement*/
 }
 
 * {
-  box-sizing: border-box;/*Border Property Requirement*/
+  box-sizing: border-box;
+  /*Border Property Requirement*/
 }
 
 .bg-img {
   /* The image used */
-  background-image: url("background.jpg");/*Background Image Requirement*/
+  background-image: url("background.jpg");
+  /*Background Image Requirement*/
   min-height: 380px;
   /* Center and scale the image nicely */
   background-position: center;
@@ -84,7 +92,8 @@ body, html {
   margin: 20px;
   max-width: 300px;
   padding: 16px;
-  background-color: white;/*Background Color Requirement*/
+  background-color: white;
+  /*Background Color Requirement*/
 }
 
 /* Full-width input fields */
@@ -106,7 +115,8 @@ input[type=text]:focus, input[type=password]:focus {
 
 .btn {
   background-color: #4CAF50;
-  color: white;/*Text Color Requirement*/
+  color: white;
+  /*Text Color Requirement*/
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -120,14 +130,4 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /*Login Form Ends Here---May not use!*/
-/*Footer Starts Here
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-}
-Footer Ends Here*/
+]
