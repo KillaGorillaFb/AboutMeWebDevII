@@ -1,0 +1,36 @@
+body{
+  background-image: url(program.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header>a{
+  float: left;
+  padding: 0 10% 0 10%;
+  text-shadow: 25px 16px 3px #c0c2c6;
+}
+fieldset{
+  margin-top: 5%;
+  background-color: #c0c2c6;
+  opacity: .3;
+}
+legend{
+  font-family: serif;
+}
+p{
+  font-family: cursive;
+}
+.mid{
+  float: left;
+  width: 99%;
+}
+.dropdown{
+  position: absolute;
+  left: 900px;
+  top: 250px;
+}
+a:hover{
+  color: black
+}
+a:active{
+  color: blue;
+}
